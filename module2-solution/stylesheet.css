@@ -1,0 +1,70 @@
+/* desktop 992px or above
+tablet 768 - 991
+mobile 767 or less */
+
+.header {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+
+.menu {
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+  background-color: silver;
+  border: 2px solid black;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+}
+
+.menu-header {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* box-sizing: content-box; */
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.paragraph {
+  /* margin-top: 35px;
+  margin-bottom: 5px; */
+  margin: 35px 10px 5px;
+}
+
+.chicken {
+  background-color: pink;
+}
+
+.beef {
+  background-color: red;
+}
+
+.sushi {
+  background-color: salmon;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tablet {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .desktop {
+    display: flex;
+  }
+  .tablet {
+    display: flex;
+  }
+}
